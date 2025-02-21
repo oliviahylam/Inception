@@ -1,0 +1,31 @@
+/* Styling for Prev and Next Buttons */
+.prev-button,
+.next-button {
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: white;
+    background: transparent; 
+    padding: 10px 15px;
+    border: 2px solid transparent; 
+    transition: 0.3s ease-in-out;
+}
+
+/* Hover Effect (Same as Nav Bar) */
+.prev-button:hover,
+.next-button:hover {
+    color: red;
+    border-bottom: 2px solid darkslategrey;
+}
+
+
+/* Navigation Buttons - Styled Like Nav Bar */
+.navigation-buttons {
+    position: fixed;
+    bottom: 20px; 
+    width: 100%;
+    display: flex;
+    justify-content: space-between; 
+    padding: 0 30px;
+    box-sizing: border-box;
+}
